@@ -15,17 +15,17 @@ try{
 
     let status = `
 ═══════════════════◊
-_*⚙️ SHANUWA ID SYS INFO ⚙️*_
+_*⚙️ CHAMOD SYS INFO ⚙️*_
 ═══════════════════◊
 
 ╔════════════════◊
 ║❖ *ᴜᴘᴛɪᴍᴇ :* _${runtime(process.uptime())}_
 ║❖ *ʀᴀᴍ ᴜꜱᴀɢᴇ :*  _${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB_
 ║❖ *ʜᴏꜱᴛ ɴᴀᴍᴇ :* _${os.hostname()}_
-║❖ *ᴏᴡɴᴇʀ :* _ꜱʜᴀɴᴜᴡᴀ ɪᴅ_
+║❖ *ᴏᴡɴᴇʀ :* _ᴄʜᴀᴍɪᴅ ᴜᴅᴀʏᴀɴɢᴀ_
 ╚════════════════◊
 
-> ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱʜᴀɴᴜᴡᴀ ɪᴅ    
+> ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ    
 `
 
     return reply(`${status}`)
@@ -54,7 +54,7 @@ try{
         const message = await conn.sendMessage(from, { text: '*pong...*' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `_*📍Epzi's Speed : ${ping}ms*_` }, { quoted: mek })
+        await conn.sendMessage(from, { text: `_*📍DARK-ARROW Speed : ${ping}ms*_` }, { quoted: mek })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
