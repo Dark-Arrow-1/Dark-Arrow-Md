@@ -31,7 +31,7 @@ let desc = `
 ╚════════════════◊
 ╔════════════════◊
 ║ _*SHANUWA MD GITHUB REPO*_
-║ https://github.com/HaCkr-EPZI-public/CuduNona 
+║ https://github.com/Dark-Arrow-1/Dark-Arrow-Md
 ╚════════════════◊
 ╔════════════════◊
 ║ _*WHATSAPP GROUP*_
