@@ -3,7 +3,7 @@
 
                          cmd({
                              pattern: "define",
-                             desc: "📚 Get the definition of a word",
+                             desc: "🗂️ Get the definition of a word",
                              react: "🔍",
                              category: "other",
                              filename: __filename
@@ -23,10 +23,10 @@
                                  const synonyms = definitionData.meanings[0].definitions[0].synonyms.join(', ') || 'No synonyms available';
 
 const wordInfo = `
-📚 *Word*: ${definitionData.word}
+🗂️ *Word*: ${definitionData.word}
 🔍 *Definition*: ${definition}
-📝 *Example*: ${example}
-🔗 *Synonyms*: ${synonyms}
+📋 *Example*: ${example}
+🖇️ *Synonyms*: ${synonyms}
 
 > Asᴍᴏᴅᴇᴜs Eᴘᴢɪ`;
 
@@ -36,6 +36,6 @@ const wordInfo = `
                                  if (e.response && e.response.status === 404) {
                                      return reply("🚫 Word not found. Please check the spelling and try again.");
                                  }
-                                 return reply("⚠️ An error occurred while fetching the definition. Please try again later.");
+                                 return reply("🔐 An error occurred while fetching the definition. Please try again later.");
                              }
                          });
