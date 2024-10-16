@@ -10,7 +10,7 @@ let baseUrl;
 })();
 
 
-const yourName = "*©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱʜᴀɴᴜᴡᴀ ɪᴅ*";
+const yourName = "*©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ*";
 
 //apk downloader
 
@@ -20,7 +20,7 @@ cmd({
     alias: ["fb"],
     desc: "download fb videos",
     category: "download",
-    react: "⬇️",
+    react: "⏳",
     filename: __filename
 },
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -28,7 +28,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
         if (!q && !q.startsWith("https://")) return reply("give me fb url")
         //fetch data from api  
         let data = await fetchJson(`${baseUrl}/api/fdown?url=${q}`)
-        reply("*Downloading...*")
+        reply("*Downloading...😴*")
         //send video (hd,sd)
         await conn.sendMessage(from, { video: { url: data.data.hd }, mimetype: "video/mp4", caption: `- HD\n\n ${yourName}` }, { quoted: mek })
         await conn.sendMessage(from, { video: { url: data.data.sd }, mimetype: "video/mp4", caption: `- SD \n\n ${yourName}` }, { quoted: mek })  
@@ -44,7 +44,7 @@ cmd({
     alias: ["tiktok"],
     desc: "download tt videos",
     category: "download",
-    react: "⬇️",
+    react: "⏳",
     filename: __filename
 },
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -52,7 +52,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
         if (!q && !q.startsWith("https://")) return reply("give me tiktok url")
         //fetch data from api  
         let data = await fetchJson(`${baseUrl}/api/tiktokdl?url=${q}`)
-        reply("*Downloading...*")
+        reply("*Downloading...😴*")
         //send video (wm,nwm)
         await conn.sendMessage(from, { video: { url: data.data.no_wm }, mimetype: "video/mp4", caption: `- NO-WATERMARK\n\n ${yourName}` }, { quoted: mek })
         await conn.sendMessage(from, { video: { url: data.data.wm }, mimetype: "video/mp4", caption: `- WITH-WATERMARK \n\n ${yourName}` }, { quoted: mek })  
@@ -70,7 +70,7 @@ cmd({
     alias: ["twdl"],
     desc: "download tw videos",
     category: "download",
-    react: "⬇️",
+    react: "⏳",
     filename: __filename
 },
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -78,7 +78,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
         if (!q && !q.startsWith("https://")) return reply("give me twitter url")
         //fetch data from api  
         let data = await fetchJson(`${baseUrl}/api/twitterdl?url=${q}`)
-        reply("*Downloading...*")
+        reply("*Downloading...😴*")
         //send video (hd,sd)
         await conn.sendMessage(from, { video: { url: data.data.data.HD }, mimetype: "video/mp4", caption: `- HD\n\n ${yourName}` }, { quoted: mek })
         await conn.sendMessage(from, { video: { url: data.data.data.SD }, mimetype: "video/mp4", caption: `- SD \n\n ${yourName}` }, { quoted: mek })  
@@ -96,7 +96,7 @@ cmd({
     alias: ["googledrive"],
     desc: "download gdrive files",
     category: "download",
-    react: "⬇️",
+    react: "⏳",
     filename: __filename
 },
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -104,7 +104,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
         if (!q && !q.startsWith("https://")) return reply("give me gdrive url")
         //fetch data from api  
         let data = await fetchJson(`${baseUrl}/api/gdrivedl?url=${q}`)
-        reply("*Downloading...*")
+        reply("*Downloading...😴*")
         await conn.sendMessage(from, { document: { url: data.data.download }, fileName: data.data.fileName, mimetype: data.data.mimeType, caption: `${data.data.fileName}\n\n${yourName}` }, { quoted: mek })                                                                                                                 
     } catch (e) {
         console.log(e)
@@ -118,7 +118,7 @@ cmd({
     alias: ["mfire"],
     desc: "download mfire files",
     category: "download",
-    react: "⬇️",
+    react: "⏳",
     filename: __filename
 },
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -139,7 +139,7 @@ cmd(
     pattern: 'ig',
     desc: 'Download Instagram videos',
     category: 'download',
-    react: '📩',
+    react: '📥',
     filename: __filename,
   },
   async (
@@ -176,7 +176,7 @@ cmd(
         return reply('Please provide a valid Instagram URL')
       }
       let response = await fetchJson(baseUrl + '/api/igdl?url=' + url)
-      reply('*DOWNLOADING... 📥*')
+      reply('*DOWNLOADING... 😍*')
       await client.sendMessage(
         from,
         {
