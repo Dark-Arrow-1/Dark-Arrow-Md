@@ -5,7 +5,7 @@ cmd({
     pattern: "animegirl",
     desc: "Fetch a random anime girl image.",
     category: "fun",
-    react: "👧",
+    react: "🫣",
     filename: __filename
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -14,7 +14,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const response = await axios.get(apiUrl);
         const data = response.data;
 
-        await conn.sendMessage(from, { image: { url: data.url }, caption: '👧 *Random Anime Girl Image* 👧\n> *by ꜱʜᴀɴᴜᴡᴀ ɪᴅ*' }, { quoted: mek });
+        await conn.sendMessage(from, { image: { url: data.url }, caption: '😇 *Random Anime Girl Image* 😇\n> *by ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ*' }, { quoted: mek });
     } catch (e) {
         console.log(e);
         reply(`Error fetching anime girl image: ${e.message}`);
@@ -44,7 +44,7 @@ Isn't that interesting? 😄
         return reply(funFact);
     } catch (e) {
         console.log(e);
-        return reply("⚠️ An error occurred while fetching a fun fact. Please try again later.");
+        return reply("🔐 An error occurred while fetching a fun fact. Please try again later.");
     }
 });
 
@@ -75,6 +75,6 @@ ${joke.punchline} 😄
         return reply(jokeMessage);
     } catch (e) {
         console.log(e);
-        return reply("⚠️ Couldn't fetch a joke right now. Please try again later.");
+        return reply("🔐 Couldn't fetch a joke right now. Please try again later.");
     }
 });
