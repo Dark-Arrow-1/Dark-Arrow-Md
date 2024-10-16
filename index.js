@@ -30,7 +30,7 @@ const {
     filer.download((err, data) => {
     if(err) throw err
     fs.writeFile(__dirname + '/session/creds.json', data, () => {
-    console.log("Session downloaded ✅")
+    console.log("Session downloaded 😍")
     })})}
     
     const express = require("express");
@@ -40,7 +40,7 @@ const {
     //=============================================
     
     async function connectToWA() {
-    console.log("Connecting wa bot 🧬...");
+    console.log("Connecting whatsapp bot 🌟...");
     const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/session/')
     var { version } = await fetchLatestBaileysVersion()
     
@@ -60,19 +60,19 @@ const {
     connectToWA()
     }
     } else if (connection === 'open') {
-    console.log('👧 Installing... ')
+    console.log('🧞 Installing... ')
     const path = require('path');
     fs.readdirSync("./plugins/").forEach((plugin) => {
     if (path.extname(plugin).toLowerCase() == ".js") {
     require("./plugins/" + plugin);
     }
     });
-    console.log('Plugins installed successful ✅')
-    console.log('Epzige Cudu Nona connected to whatsapp ✅\nCreated By Asmodeus Epzi')
+    console.log('Plugins installed successful 😍')
+    console.log('DARK ARROW CONNECTED WHATSAPP 😍\nCreated By Asmodeus Epzi')
     
-    let up = `Epzige Cudu Nona Connected To WhatsApp Successfully ✅\n\n*PREFIX:${prefix}*\n\n*Join Our Chat Group*\nhttps://chat.whatsapp.com/FUYcvrXn9zm6BHbFznMSpn\n\n\n*Epzi Mage Mn Epzige <3💗*\n\n> Created by Asmodeus Epzi\n\n\n> version 1.0`;
+    let up = `Dark Arrow MD Connected To WhatsApp Successfully 😍\n\n*PREFIX:${prefix}*\n\n*Join Our Chat Group*\nhttps://chat.whatsapp.com/E1jrDVskd8k2NqJvfQ0Iqt\n\n\n*DARK-ARROW-MD*\n\n> Created by Chamod Udayanga\n\n\n> version 1.0`;
     
-    conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/tZzBS47/image.jpg` }, caption: up })
+    conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.imgur.com/HCFM5BV.jpeg` }, caption: up })
     
     }
     })
@@ -187,7 +187,7 @@ const {
 })
     }
     app.get("/", (req, res) => {
-    res.send("hey, bot started✅");
+    res.send("hey, bot started😍");
     });
     app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
     setTimeout(() => {
