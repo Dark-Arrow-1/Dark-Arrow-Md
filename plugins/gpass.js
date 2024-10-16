@@ -5,7 +5,7 @@ cmd({
     pattern: "gpass",
     desc: "Generate a strong password.",
     category: "other",
-    react: "🔐",
+    react: "🔒",
     filename: __filename
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -26,7 +26,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         };
 
         const password = generatePassword(length);
-        const message = `🔐 *Your Strong Password* 🔐\n\nPlease find your generated password below:\n\n> ꜱʜᴀɴᴜᴡᴀ ɪᴅ`;
+        const message = `🔒 *Your Strong Password* 🔒\n\nPlease find your generated password below:\n\n> ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ
+        `;
 
         // Send initial notification message
         await conn.sendMessage(from, { text: message }, { quoted: mek });
