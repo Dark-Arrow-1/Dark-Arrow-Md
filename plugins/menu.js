@@ -114,9 +114,16 @@ let desc = `
 ║ 🙊 _.restart_
 ╚════════════◊
 
-> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱʜᴀɴᴜᴡᴀ ɪᴅ*
+*MY WHATSAPP CHANNEL 👇*
+🌟.https://whatsapp.com/channel/0029VarcuQjIyPtYfUvAz62F
+
+*MY YOUTUBE CHANNEL SUBSCRIBE 👇*
+🌟.https://youtube.com/@sl_dark_arrow_team?si=OYYmH7Ynh6efTOQS
+
+
+> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ*
 `
-return await conn.sendMessage(from,{image: {url: `https://ibb.co/3S9sn8S`},caption: desc},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://i.imgur.com/HCFM5BV.jpeg`},caption: desc},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
