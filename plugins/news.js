@@ -30,7 +30,7 @@ cmd(
           article.description +
           '_\n🔗 _' +
           article.url +
-          '_\n\n© ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ\n💻 GitHub: github.com/HaCkr-EPZI-public/CuduNona';
+          '_\n\n© ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ\n💻 GitHub: https://github.com/Dark-Arrow-1/Dark-Arrow-Md';
 
         console.log('Article URL:', article.urlToImage);
 
