@@ -20,14 +20,14 @@ let desc = `
 ║✧ *ᴜᴘᴛɪᴍᴇ :* _${runtime(process.uptime())}_
 ║✧ *ʀᴀᴍ ᴜꜱᴀɢᴇ :*  _${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB_
 ║✧ *ʜᴏꜱᴛ ɴᴀᴍᴇ :* _${os.hostname()}_
-║✧ *ᴏᴡɴᴇʀ :* _ꜱʜᴀɴᴜᴡᴀ ɪᴅ_
+║✧ *ᴏᴡɴᴇʀ :* _ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ_
 ╚════════════════◊
 
-*Shanuwage Wada Thama Ithin 👨‍💻💥*
+*Chamodge Wada Thama Ithin 👨‍💻💥*
 
 ╔════════════════◊
 ║ _*YOUTUBE LINK*_
-║ https://www.youtube.com/@shanuwatech
+║ https://youtube.com/@sl_dark_arrow_team?si=OYYmH7Ynh6efTOQS
 ╚════════════════◊
 ╔════════════════◊
 ║ _*SHANUWA MD GITHUB REPO*_
@@ -35,16 +35,16 @@ let desc = `
 ╚════════════════◊
 ╔════════════════◊
 ║ _*WHATSAPP GROUP*_
-║ https://chat.whatsapp.com/Br3OsfVzPMcF2qPcCWLAw5
+║ https://chat.whatsapp.com/E1jrDVskd8k2NqJvfQ0Iqt
 ╚════════════════◊
 ╔════════════════◊
 ║ _*WHATSAPP CHANNEL*_
-║ https://whatsapp.com/channel/0029ValzLhUBqbrFa8tMPg3U
+║ https://whatsapp.com/channel/0029VarcuQjIyPtYfUvAz62F
 ╚════════════════◊
 
-> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱʜᴀɴᴜᴡᴀ ɪᴅ*
+> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ*
 `
-return await conn.sendMessage(from,{image: {url: `https://ibb.co/3S9sn8S`},caption: desc},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://i.imgur.com/HCFM5BV.jpeg`},caption: desc},{quoted: mek})
 
 }catch(e){
 console.log(e)
