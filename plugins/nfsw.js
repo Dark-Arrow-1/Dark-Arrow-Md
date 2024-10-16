@@ -36,7 +36,7 @@ cmd(
           sender,
           {
             image: { url: blowjobData[key] },
-            caption: '> Created By SHANUWA ID',
+            caption: '> Created By CHAMOD UDAYANGA',
           },
           { quoted: originalMessage }
         );
