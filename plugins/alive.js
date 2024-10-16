@@ -44,7 +44,7 @@ let desc = `
 
 > *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱʜᴀɴᴜᴡᴀ ɪᴅ*
 `
-return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/tZzBS47/image.jpg`},caption: desc},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://ibb.co/3S9sn8S`},caption: desc},{quoted: mek})
 
 }catch(e){
 console.log(e)
