@@ -29,7 +29,7 @@ cmd({
       
       let sticker = new Sticker(imageFileName, {
         pack: pushname,
-        author: 'Asᴍᴏᴅᴇᴜs Eᴘᴢɪ',
+        author: 'ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ',
         type: args.includes('--crop') || args.includes('-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
         categories: ['🥳', '🎉'],
         id: '12345',
@@ -46,7 +46,7 @@ cmd({
       
       let sticker = new Sticker(stickerFileName, {
         pack: pushname,
-        author: 'Asᴍᴏᴅᴇᴜs Eᴘᴢɪ',
+        author: 'ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ',
         type: args.includes('--crop') || args.includes('-c') ? StickerTypes.CROPPED : StickerTypes.FULL,
         categories: ['🥳', '🎉'],
         id: '12345',
@@ -94,7 +94,7 @@ cmd({
 cmd({
   pattern: 'trt',
   alias: ['translate'],
-  desc: '🌍 Translate text between languages',
+  desc: '🌐 Translate text between languages',
   react: '⚡',
   category: 'other',
   filename: __filename,
@@ -111,7 +111,7 @@ cmd({
     const response = await axios.get(apiUrl);
     const translatedText = response.data.responseData.translatedText;
     const responseMessage = `
-🌍 *CUDU NONA TRANSLATION* 🌍
+🌐 *DARK-ARROW TRANSLATION* 🌐
 
 📜 *Original*: ${textToTranslate}
 
@@ -119,11 +119,11 @@ cmd({
 
 🗣️ *Language*: ${languageCode.toUpperCase()}
     
-> created by Asᴍᴏᴅᴇᴜs Eᴘᴢɪ
+> created by ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ
 `;
     return reply(responseMessage);
   } catch (error) {
     console.log(error);
-    return reply('⚠️ An error occurred while translating your text. Please try again later. 🤔');
+    return reply('🔐 An error occurred while translating your text. Please try again later. 🤣');
   }
 });
