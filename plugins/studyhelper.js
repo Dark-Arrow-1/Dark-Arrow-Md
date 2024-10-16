@@ -56,7 +56,7 @@ cmd(
             (_0x4aacfd + 1) +
             ':\n' +
             _0x1f1990[_0x4aacfd] +
-            '\n\n> ꜱʜᴀɴᴜᴡᴀ ɪᴅ'
+            '\n\n> ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ'
         ),
         userTipIndex.set(_0x2eeb05, _0x4aacfd + 1))
       : (_0x27d766(
