@@ -30,7 +30,7 @@ let desc = `
 ║ https://youtube.com/@sl_dark_arrow_team?si=OYYmH7Ynh6efTOQS
 ╚════════════════◊
 ╔════════════════◊
-║ _*SHANUWA MD GITHUB REPO*_
+║ _*DARK ARROW MD GITHUB REPO*_
 ║ https://github.com/Dark-Arrow-1/Dark-Arrow-Md
 ╚════════════════◊
 ╔════════════════◊
