@@ -20,7 +20,7 @@ let desc = `
 ║💫 *ʜᴏꜱᴛ ɴᴀᴍᴇ :* _${os.hostname()}_
 ║👤 *ᴏᴡɴᴇʀ :* _ꜱʜᴀɴᴜᴡᴀ ɪᴅ_
 ╚════════════════◊
-*SHANUWA MD IS HERE*🤖
+*DARK ARROW MD IS HERE*🤖
 ╔════════════◊
 🙊 *📑ALL COMMANDS📑*╚════════════◊
 ╔════════════◊
