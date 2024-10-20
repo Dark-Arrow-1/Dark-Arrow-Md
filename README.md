@@ -49,4 +49,4 @@
 </details>
 
 ## `Main Dev` 
-<a href="https://github.com/GlobalTechInfo"><img src="https://github.com/GlobalTechInfo.png" width="250" height="250" alt="GlobalTechInfo"/></a>
+<a href="https://github.com/GlobalTechInfo"><img src="https://i.imgur.com/meAQQJq.jpeg" width="250" height="250" alt="chamodudayanga"/></a>
