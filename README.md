@@ -47,3 +47,6 @@
 [![vajira](https://telegra.ph/file/99460844d012cad1b7ee4.jpg)](https://whatsapp.com/channel/0029VarcuQjIyPtYfUvAz62F)
 <hr>
 </details>
+
+## `Main Dev` 
+<a href="https://github.com/GlobalTechInfo"><img src="https://github.com/GlobalTechInfo.png" width="250" height="250" alt="GlobalTechInfo"/></a>
