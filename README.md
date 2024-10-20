@@ -23,7 +23,7 @@
 <a href='https://pair-web-public.koyeb.app/' target="_blank"><img alt='Get Session ID' src='https://img.shields.io/badge/Click here to get your session id-blue?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
 <hr>
-<b><summary>𝗦𝗢𝗖𝗜𝗔𝗟 𝗧𝗬𝗣𝗘𝗦</summary><br>
+<b><summary>DARK ARROW MD</summary><br>
 
 ## CHAMOD UDAYANGA CONTACT 
 
