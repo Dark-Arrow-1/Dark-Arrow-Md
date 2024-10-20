@@ -72,7 +72,7 @@ const {
     
     let up = `Dark Arrow MD Connected To WhatsApp Successfully 😍\n\n*PREFIX:${prefix}*\n\n*Join Our Chat Group*\nhttps://chat.whatsapp.com/E1jrDVskd8k2NqJvfQ0Iqt\n\n\n*DARK-ARROW-MD*\n\n> Created by Chamod Udayanga\n\n\n> version 1.0`;
     
-    conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.imgur.com/HCFM5BV.jpeg` }, caption: up })
+    conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.imgur.com/zsGHqkf.jpeg` }, caption: up })
     
     }
     })
