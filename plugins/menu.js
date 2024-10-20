@@ -123,7 +123,7 @@ let desc = `
 
 > *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ*
 `
-return await conn.sendMessage(from,{image: {url: `https://i.imgur.com/HCFM5BV.jpeg`},caption: desc},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://i.imgur.com/zsGHqkf.jpeg`},caption: desc},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
