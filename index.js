@@ -20,7 +20,7 @@ const {
     const { File } = require('megajs')
     const prefix = '.'
     
-    const ownerNumber = ['94774609569']
+    const ownerNumber = ['94775909265']
     
     //===================SESSION-AUTH============================
     if (!fs.existsSync(__dirname + '/session/creds.json')) {
