@@ -1,4 +1,4 @@
-const { cmd } = require('../command'),
+හ්const { cmd } = require('../command'),
   userTipIndex = new Map()
 cmd(
   {
