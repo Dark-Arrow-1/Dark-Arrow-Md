@@ -1,4 +1,4 @@
-const axios = require('axios'),
+උconst axios = require('axios'),
   { cmd } = require('../command'),
   config = require('../config')
 cmd(
