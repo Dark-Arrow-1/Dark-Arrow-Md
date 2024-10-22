@@ -34,8 +34,6 @@
 
 
 ## Deploy.
- [![nima](https://img.shields.io/badge/dark_arrow_md_deploy_on_heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&buttcode=1n2i3m4a)](https://dashboard.heroku.com/new?template=https://github.com/Dark-Arrow-1/Dark-Arrow-Md)
-  
 [![nima](https://img.shields.io/badge/dark_arrow_md_deploy_on_railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white&buttcode=1n2i3m4a)](https://railway.app?referralCode=queen-elisa)
    
 [![nima](https://img.shields.io/badge/dark_arrow_md_deploy_on_render-000000?style=for-the-badge&logo=render&logoColor=white&buttcode=1n2i3m4a)](https://docs.render.com/free)
@@ -59,3 +57,12 @@
 [![vajira](https://telegra.ph/file/99460844d012cad1b7ee4.jpg)](https://chat.whatsapp.com/E1jrDVskd8k2NqJvfQ0Iqt)
 <hr>
 </details>
+
+<hr>
+
+## Supporte By 
+
+[![vajira](https://telegra.ph/file/99460844d012cad1b7ee4.jpg)](https://wa.me/94774609569)
+
+<hr>
+
