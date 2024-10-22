@@ -1,4 +1,4 @@
-ග්const config = require('../config');
+const config = require('../config');
 const fs = require('fs');
 const path = require('path');
 const {cmd , commands} = require('../command')
