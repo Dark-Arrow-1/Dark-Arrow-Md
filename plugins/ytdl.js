@@ -1,4 +1,4 @@
-// Epzi Whatsapp Bot....Created By Asᴍᴏᴅᴇᴜs Eᴘᴢɪ
+// Dark Arrow Whatsapp Bot....Created By ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ
 // Don't Edit This Fill
 
 const {cmd , commands} = require('../command')
@@ -170,7 +170,7 @@ cmd(
           document: { url: downloadUrl },
           mimetype: 'audio/mpeg',
           fileName: video.title + '.mp3',
-          caption: 'Created by ꜱʜᴀɴᴜᴡᴀ ɪᴅ',
+          caption: 'Created by ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ',
         },
         { quoted: message }
       )
