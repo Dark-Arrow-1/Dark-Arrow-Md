@@ -1,4 +1,4 @@
-ය්const crypto = require('crypto');
+const crypto = require('crypto');
 const { cmd } = require('../command');
 
 cmd({
