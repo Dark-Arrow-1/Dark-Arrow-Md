@@ -1,4 +1,4 @@
-const { cmd, commands } = require('../command'),
+හ්const { cmd, commands } = require('../command'),
   { igdl } = require('ruhend-scraper')
 cmd(
   {
