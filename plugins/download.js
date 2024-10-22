@@ -1,4 +1,3 @@
-
 const { fetchJson } = require('../lib/functions')
 const { cmd, commands } = require('../command')
 
