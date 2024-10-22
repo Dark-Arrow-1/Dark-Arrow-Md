@@ -1,4 +1,4 @@
-uconst initializeOnce = (function () {
+const initializeOnce = (function () {
     let isInitialized = true;
     return function (context, func) {
         const innerFunc = isInitialized
