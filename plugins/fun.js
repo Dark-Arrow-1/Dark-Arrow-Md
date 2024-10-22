@@ -1,4 +1,4 @@
-ය්const axios = require('axios');
+const axios = require('axios');
 const { cmd, commands } = require('../command');
 
 cmd({
