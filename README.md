@@ -60,7 +60,7 @@
 
 <hr>
 
-## Supporte By 
+## Supporte By SHANUWA ID
 
 [![vajira](https://telegra.ph/file/99460844d012cad1b7ee4.jpg)](https://wa.me/94774609569)
 
