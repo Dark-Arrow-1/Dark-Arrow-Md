@@ -1,4 +1,4 @@
-uconst { cmd, commands } = require('../command'),
+const { cmd, commands } = require('../command'),
   axios = require('axios'),
   { Buffer } = require('buffer')
 cmd(
