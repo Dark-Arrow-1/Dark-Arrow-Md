@@ -1,4 +1,4 @@
-හ්const { cmd, commands } = require('../command');
+const { cmd, commands } = require('../command');
 const config = require('../config');
 const {
   getBuffer,
