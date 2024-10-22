@@ -1,4 +1,4 @@
-උconst { fetchJson } = require('../lib/functions')
+const { fetchJson } = require('../lib/functions')
 const { cmd, commands } = require('../command')
 
 // FETCH API URL
