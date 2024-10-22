@@ -23,7 +23,7 @@ let desc = `
 ║✧ *ᴏᴡɴᴇʀ :* _ᴄʜᴀᴍᴏᴅ ᴜᴅᴀʏᴀɴɢᴀ_
 ╚════════════════◊
 
-*Chamodge Wada Thama Ithin 👨‍💻💥*
+*💥👨‍💻 Chamodge Wada Thama Ithin 👨‍💻💥*
 
 ╔════════════════◊
 ║ _*YOUTUBE LINK*_
