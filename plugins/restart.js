@@ -1,4 +1,4 @@
-const config = require('../config')
+උconst config = require('../config')
 const {cmd , commands} = require('../command')
 const {sleep} = require('../lib/functions')
 
