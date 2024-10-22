@@ -68,7 +68,7 @@ const {
     }
     });
     console.log('Plugins installed successful 😍')
-    console.log('DARK ARROW CONNECTED WHATSAPP 😍\nCreated By Asmodeus Epzi')
+    console.log('DARK ARROW CONNECTED WHATSAPP 😍\nCreated By Chamod udayanga')
     
     let up = `Dark Arrow MD Connected To WhatsApp Successfully 😍\n\n*PREFIX:${prefix}*\n\n*Join Our Chat Group*\nhttps://chat.whatsapp.com/E1jrDVskd8k2NqJvfQ0Iqt\n\n\n*DARK-ARROW-MD*\n\n> Created by Chamod Udayanga\n\n\n> version 1.0`;
     
