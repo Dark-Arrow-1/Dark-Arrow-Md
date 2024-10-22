@@ -1,4 +1,4 @@
-ය්
+
 var commands = [];
 
 function cmd(info, func) {
