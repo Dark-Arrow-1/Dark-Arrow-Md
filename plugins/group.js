@@ -1,4 +1,4 @@
-const { cmd, commands } = require('../command')
+ජ්const { cmd, commands } = require('../command')
 
 cmd({
     pattern: "promote",
