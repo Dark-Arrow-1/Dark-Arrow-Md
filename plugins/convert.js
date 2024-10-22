@@ -1,4 +1,4 @@
-ද්const axios = require('axios');
+const axios = require('axios');
 const { cmd, commands } = require('../command');
 const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
 const googleTTS = require('google-tts-api');
